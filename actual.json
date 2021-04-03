@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "date": "03-Abril-2021",
+            "hour": "08:00",
+            "weather": "Algo nublado con banco delgado de niebla",
+            "visibility": "8 km",
+            "temp": 15.8,
+            "unk": "No se calcula",
+            "humidity": 92.0,
+            "wind": "Sur  3",
+            "pressure": 1014.5
+        },
+        {
+            "date": "03-Abril-2021",
+            "hour": "10:00",
+            "weather": "Despejado",
+            "visibility": "15 km",
+            "temp": 21.0,
+            "unk": "No se calcula",
+            "humidity": 71.0,
+            "wind": "Noreste  11",
+            "pressure": 1014.8
+        },
+        {
+            "date": "03-Abril-2021",
+            "hour": "11:00",
+            "weather": "Despejado",
+            "visibility": "15 km",
+            "temp": 22.8,
+            "unk": "No se calcula",
+            "humidity": 66.0,
+            "wind": "Este  5",
+            "pressure": 1014.6
+        },
+        {
+            "date": "03-Abril-2021",
+            "hour": "12:00",
+            "weather": "Algo nublado",
+            "visibility": "15 km",
+            "temp": 23.9,
+            "unk": "No se calcula",
+            "humidity": 61.0,
+            "wind": "Noreste  7",
+            "pressure": 1014.2
+        },
+        {
+            "date": "03-Abril-2021",
+            "hour": "13:00",
+            "weather": "Algo nublado",
+            "visibility": "15 km",
+            "temp": 25.4,
+            "unk": "No se calcula",
+            "humidity": 55.0,
+            "wind": "Este  5",
+            "pressure": 1013.6
+        },
+        {
+            "date": "03-Abril-2021",
+            "hour": "14:00",
+            "weather": "Algo nublado",
+            "visibility": "15 km",
+            "temp": 26.9,
+            "unk": "27.3",
+            "humidity": 49.0,
+            "wind": "Noreste  5",
+            "pressure": 1012.8
+        },
+        {
+            "date": "03-Abril-2021",
+            "hour": "15:00",
+            "weather": "Algo nublado",
+            "visibility": "15 km",
+            "temp": 27.2,
+            "unk": "26.4",
+            "humidity": 42.0,
+            "wind": "Noreste  13",
+            "pressure": 1012.0
+        }
+    ]
+}
