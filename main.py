@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 import sys
-print("Python version")
-print (sys.version)
 import requests
 import zipfile
 import re
@@ -10,6 +8,9 @@ import os
 import logging
 import datetime
 import time
+import json2html
+from matplotlib import pyplot as pp
+import numpy as np
 
 URL_ACTUAL = "https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=tiepre"
 URL_FUTURE = "https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=pron5d"
@@ -112,7 +113,16 @@ def main():
         f.write(parsed_json)
         logging.info("Datos actuales guardados.")
 
-
+    html_table = json2html.json2html.convert(json = parsed_json)
+    temps  = [d['temp'] for d in actual_dict["data"]]
+    labels = [d['hour'] for d in actual_dict["data"]]
+    x = np.arange(len(temps))
+    pp.plot(x,temps)
+    pp.xticks(x, labels)
+    pp.savefig('graph.png')
+    with open("index.html", 'wt') as f:
+        f.write("<img src='graph.png'> \n")
+        f.write(html_table)
 
 
 
