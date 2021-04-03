@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+import sys
+print("Python version")
+print (sys.version)
 import requests
 import zipfile
 import re
@@ -83,7 +87,7 @@ def parse_actual_zip(path):
 
 
 def main():
-    logging.basicConfig(format='%(asctime)s [%(levelname)s]:%(message)s', filename='example.log', encoding='utf-8', level=logging.DEBUG)
+    logging.basicConfig(format='%(asctime)s [%(levelname)s]:%(message)s', filename='example.log', level=logging.DEBUG)
     logging.getLogger().setLevel(logging.INFO)
     logging.info("Descargando...")
     download(URL_ACTUAL, PATH_ZIP_ACTUAL)
