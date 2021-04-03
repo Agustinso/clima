@@ -120,6 +120,17 @@
             "humidity": 43.0,
             "wind": "Calma",
             "pressure": 1011.4
+        },
+        {
+            "date": "03-Abril-2021",
+            "hour": "20:00",
+            "weather": "Despejado",
+            "visibility": "15 km",
+            "temp": 23.0,
+            "unk": "No se calcula",
+            "humidity": 58.0,
+            "wind": "Sur  5",
+            "pressure": 1011.8
         }
     ]
 }
