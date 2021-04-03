@@ -143,6 +143,7 @@ if __name__ == '__main__':
             print("Durmiendo hasta", datetime.datetime.now() + datetime.timedelta(hours = 1))
             subprocess.call(["git", "add", "."])
             subprocess.call(["git", "commit", "-a", "-m", "'updated'"])
+            subprocess.call(["git", "push"])
             time.sleep(3600)
     except KeyboardInterrupt:
         print('interrupted!')
