@@ -11,7 +11,9 @@ import time
 import json2html
 from matplotlib import pyplot as pp
 import numpy as np
+import subprocess
 
+dir_path = os.path.dirname(os.path.realpath(__file__))
 URL_ACTUAL = "https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=tiepre"
 URL_FUTURE = "https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=pron5d"
 PATH_JSON_ACTUAL = "actual.json"
@@ -139,6 +141,8 @@ if __name__ == '__main__':
             print("Inicio ciclo de bucle")
             main()
             print("Durmiendo hasta", datetime.datetime.now() + datetime.timedelta(hours = 1))
+            subprocess.call(["git", "add", "."])
+            subprocess.call(["git", "commit", "-a", "-m", "'updated'"])
             time.sleep(3600)
     except KeyboardInterrupt:
         print('interrupted!')
