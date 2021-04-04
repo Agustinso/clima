@@ -175,6 +175,17 @@
             "humidity": 77.0,
             "wind": "Sudeste  5",
             "pressure": 1012.6
+        },
+        {
+            "date": "04-Abril-2021",
+            "hour": "01:00",
+            "weather": "Algo nublado",
+            "visibility": "15 km",
+            "temp": 19.8,
+            "unk": "No se calcula",
+            "humidity": 76.0,
+            "wind": "Calma",
+            "pressure": 1012.4
         }
     ]
 }
