@@ -329,6 +329,17 @@
             "humidity": 45.0,
             "wind": "Noreste  13",
             "pressure": 1009.8
+        },
+        {
+            "date": "04-Abril-2021",
+            "hour": "15:00",
+            "weather": "Algo nublado",
+            "visibility": "15 km",
+            "temp": 29.2,
+            "unk": "28.9",
+            "humidity": 44.0,
+            "wind": "Noreste  14",
+            "pressure": 1009.3
         }
     ]
 }
